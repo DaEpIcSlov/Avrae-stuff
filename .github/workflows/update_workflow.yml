@@ -9,7 +9,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - id: modifed
-      uses: jitterbit/get-changed-files@main
+      uses: jitterbit/get-changed-files@master
       with:
         format: 'json'
     - uses: 1drturtle/avrae-gvar-update-action@main
