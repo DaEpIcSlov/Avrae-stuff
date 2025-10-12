@@ -12,7 +12,7 @@ jobs:
       uses: jitterbit/get-changed-files@master
       with:
         format: 'json'
-    - uses: 1drturtle/avrae-gvar-update-action@main
+    - uses: 1drturtle/avrae-gvar-update-action@master
       with:
         avrae-token: '${{ secrets.AVRAETOKEN }}'
         gvar-ids-file: 'gvar-ids.json'
