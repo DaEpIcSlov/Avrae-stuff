@@ -9,10 +9,10 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - id: modifed
-      uses: jitterbit/get-changed-files@master
+      uses: jitterbit/get-changed-files@main
       with:
         format: 'json'
-    - uses: 1drturtle/avrae-gvar-update-action@master
+    - uses: 1drturtle/avrae-gvar-update-action@main
       with:
         avrae-token: '${{ secrets.AVRAETOKEN }}'
         gvar-ids-file: 'gvar-ids.json'
