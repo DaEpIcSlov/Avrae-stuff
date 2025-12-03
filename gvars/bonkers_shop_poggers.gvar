@@ -1,4 +1,5 @@
 [
   {"name":"Longsword","price":"150","sellp":"75","rarity":"Non-Magical","source":"PHB"},
   {"name":"Shortsword","price":"150","sellp":"75","rarity":"Non-Magical","source":"PHB"}
+  {"name":"Musket","price":"500","sellp":"75","rarity":"Non-Magical","source":"PHB"}
 ]
